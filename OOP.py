@@ -17,3 +17,17 @@ obj=app(10,"hello")
 obj.cls1("hiiiii")
 
 obj.cls2()
+
+
+
+class var:
+    a=10
+
+
+varobj=var
+
+varobj.a
+
+print(varobj)
+
+print(varobj.a)
