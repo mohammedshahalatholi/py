@@ -11,6 +11,17 @@ class app:
         print(self.a)
         print("its b",self.b)
 
+    def indro(self):
+        print("Its intro")
+
+class var:
+    a=10
+
+class tmp:
+    def tests(self):
+        print("lets test")
+
+    b=12
 
 obj=app(10,"hello")
 
@@ -18,16 +29,17 @@ obj.cls1("hiiiii")
 
 obj.cls2()
 
-
-
-class var:
-    a=10
-
-
 varobj=var
 
 varobj.a
-
 print(varobj)
 
 print(varobj.a)
+
+obj.indro()
+
+tess=tmp()
+
+tess.tests()
+
+print(tess.b)
