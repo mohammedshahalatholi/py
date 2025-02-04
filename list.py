@@ -10,6 +10,7 @@ for i in range(n):
 
 sortlist=sorted(set(no for _,no in a))
 secontlowest=sortlist[1]
+print("list")
 print(a)
 print("lowest = ",secontlowest)
 secontloweststudentname=sorted([value for value,no in a if no==secontlowest ])
